@@ -1,0 +1,89 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#headtitle {
+    text-align: center;
+    background: #000000;
+    color: #FFFFFF;
+    border-radius: 16px;
+    padding: 10px 0 30px;
+}
+
+#content {
+	margin: 20px auto;
+	width: 700px;
+}
+
+#anime-list {
+	margin-top: 20px;
+}
+
+ul {
+	list-style: none;
+	padding: 10px;
+}
+
+li {
+	margin: 35px 0 10px;
+	border-top: 1px solid #9E9E9E;
+}
+
+li h3 {
+    margin: auto;
+}
+
+input:focus {
+    outline: none;
+}
+
+img {
+    border-radius: 10px;
+    transform: scale(0.95);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition:all .3s;
+    /*cursor:pointer;*/
+}
+
+img:hover {
+    transform: scale(1);
+}
+
+
+#searchInput {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    border-right: transparent;
+    width: 530px;
+    padding: 20px;
+    /*margin-left: 40px;*/
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+#searchBtn {
+    /*background: rgba(255,255,255,0.05);*/
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    height: 61px;
+    font-size: 16px;
+    margin-left: -5px;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+#searchBtn:hover {
+    background: #6A6767;
+    color: white;
+    transition:all .2s ease-in-out;
+}
+
